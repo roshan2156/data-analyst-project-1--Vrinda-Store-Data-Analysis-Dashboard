@@ -162,6 +162,12 @@ Slicers were added to make the dashboard interactive.
 
 ---
 
+# Final Dashboard 
+
+<img width="1441" height="646" alt="image" src="https://github.com/user-attachments/assets/1cc7a0fc-f210-4109-a500-42e905e55982" />
+
+---
+
 # Final Dashboard Insights
 
 - Women customers contributed the highest sales.
