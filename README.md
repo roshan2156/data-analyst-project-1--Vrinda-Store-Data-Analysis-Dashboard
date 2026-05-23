@@ -94,71 +94,84 @@ Vrinda Store wants to create an annual sales report for 2022 so that they can un
   - **Age Group Column**: `=IF(E2>=50,"Senior",IF(E2>=30,"Adult","Teenager"))`
   - **Month Column**: `=TEXT(G2,"mmm")`
 
-### 5. Pivot Table Creation
-- Created PivotTables for:
-  - Orders vs Sales
-  - Men vs Women
-  - Order Status
-  - Top 5 States
-  - Age vs Gender
-  - Sales Channels
+## 5. Data Analysis
 
-### 6. Pivot Chart Creation
-- Created:
-  - Combo Chart
-  - Pie Chart
-  - Bar Chart
-  - Column Chart
+Data analysis was performed using PivotTables, PivotCharts, slicers, and dashboards to understand sales performance and customer behavior.
 
-### 7. Dashboard Design
+### Analysis Performed
+
+#### Orders vs Sales Analysis
+- Compared total orders and total sales month-wise.
+- Created using PivotTable and Combo Chart.
+
+#### Men vs Women Analysis
+- Compared sales contribution by men and women customers.
+- Created using PivotTable and Pie Chart.
+
+#### Order Status Analysis
+- Analyzed:
+  - Delivered orders
+  - Cancelled orders
+  - Returned orders
+  - Refunded orders
+- Created using PivotTable and Pie Chart.
+
+#### Top 5 States Analysis
+- Identified states generating highest sales revenue.
+- Created using PivotTable and Bar Chart.
+
+#### Age vs Gender Analysis
+- Compared customer age groups with gender contribution.
+- Created using PivotTable and Column Chart.
+
+#### Channel Analysis
+- Compared sales contribution from different channels such as:
+  - Amazon
+  - Myntra
+  - Flipkart
+  - Ajio
+  - Meesho
+- Created using PivotTable and Pie Chart.
+
+---
+
+### Dashboard Design
+
+The dashboard was designed to display all charts and analysis in one interactive screen.
+
+### What Was Done
 - Added chart titles
 - Removed gridlines
 - Formatted charts
-- Aligned visuals properly
+- Adjusted chart alignment
 - Created interactive dashboard layout
 
-### 8. Slicer Integration
-- Added slicers for:
-  - Month
-  - Channel
-  - Category
-- Connected slicers to all PivotTables using: `Report Connections`
+---
 
-### 9. Dashboard Insights
-- Analyzed:
-  - Monthly sales trends
-  - Gender-wise sales
-  - Order status distribution
-  - Top-performing states
-  - Age group contribution
-  - Channel contribution
+### Slicer Integration
 
-### 10. Final Dashboard Creation
-- Built an interactive Excel dashboard for business decision-making and sales analysis.
+Slicers were added to make the dashboard interactive.
+
+### Slicers Added
+- Month
+- Channel
+- Category
+
+### Feature Used
+- Report Connections
 
 ---
 
 # Final Dashboard Insights
 
-* Women contributed the highest sales.
-* Delivered orders were the majority.
-* Ajio/Myntra contributed major sales.
-* Certain states generated the highest revenue.
-* Adults were the primary buyers.
-
----
-
-# Dashboard Features
-
-* Interactive dashboard
-* Dynamic slicers
-* Automatic filtering
-* Pivot-based analysis
-* Easy refresh with:
-
-  ```text
-  Data → Refresh All
-  ```
+- Women customers contributed the highest sales.
+- Most orders were successfully delivered.
+- Amazon, Myntra, and Ajio generated major sales.
+- Maharashtra and Karnataka generated high revenue.
+- Adult customers were the primary buyers.
+- Online channels contributed most of the sales.
+- Monthly sales performance remained stable.
+- Very few orders were cancelled or refunded.
 
 ---
 
@@ -207,4 +220,4 @@ The project can be extended further using:
 
 # Author
 
-Vrinda Store Data Analysis Project
+Roshan Chhotulal Patil
